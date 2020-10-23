@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj": {}
+    "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj": {
+    "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\jdurn_000\\.nuget\\packages\\",
-        "outputPath": "D:\\C#-ReactCourse\\Reactivities\\Domain\\obj\\",
+        "outputPath": "d:\\C#-ReactCourse\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+jJgwc9Z8AwqUe1dI1n7oOM49V4gGjrzp/iIaV/qlsiXMFyrOPANzup03IQbd405bOTYjf4u85h/KWKUEFCpYg==",
+  "dgSpecHash": "NQegpLhSLN2qBaBNlzCdo8uo/Ngqg0OtEylI34IQh204XLwG+IyCniP3yI4B7nh4qxf7BT1M1UNaEeqWHkMFFg==",
   "success": true,
-  "projectFilePath": "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jdurn_000\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jdurn_000\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

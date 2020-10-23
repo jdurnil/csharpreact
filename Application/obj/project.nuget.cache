@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YGNMTxtr3+k+bCkemVwjihGlqE+3bYxi0172pnpRGpyGpz5P42WSjhVNK9g7wCQbm4mYyZWou0mszbRfnms1Fg==",
+  "dgSpecHash": "5izGisxRB4poTbqnegejzkSRZ3OoeePHSpICqqIMTibZqrdnBbwJ6eF2eP9lCAgX7Sf6alaK6pY+lW33pZ8r4w==",
   "success": true,
-  "projectFilePath": "D:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj",
+  "projectFilePath": "d:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jdurn_000\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\jdurn_000\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\jdurn_000\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jdurn_000\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\jdurn_000\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.9\\microsoft.data.sqlite.core.3.1.9.nupkg.sha512",
