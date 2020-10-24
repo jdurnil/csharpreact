@@ -1386,11 +1386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "D:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\jdurn_000\\.nuget\\packages\\",
-      "outputPath": "d:\\C#-ReactCourse\\Reactivities\\Application\\obj\\",
+      "outputPath": "D:\\C#-ReactCourse\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1411,11 +1411,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj"
+            "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\C#-ReactCourse\\Reactivities\\Domain\\Domain.csproj"
             },
-            "d:\\C#-ReactCourse\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "d:\\C#-ReactCourse\\Reactivities\\Persistence\\Persistence.csproj"
+            "D:\\C#-ReactCourse\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\C#-ReactCourse\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }

@@ -1269,11 +1269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\C#-ReactCourse\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "D:\\C#-ReactCourse\\Reactivities\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\C#-ReactCourse\\Reactivities\\API\\API.csproj",
+      "projectPath": "D:\\C#-ReactCourse\\Reactivities\\api\\API.csproj",
       "packagesPath": "C:\\Users\\jdurn_000\\.nuget\\packages\\",
-      "outputPath": "d:\\C#-ReactCourse\\Reactivities\\API\\obj\\",
+      "outputPath": "D:\\C#-ReactCourse\\Reactivities\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1294,8 +1294,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "d:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "d:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj"
+            "D:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "D:\\C#-ReactCourse\\Reactivities\\Application\\Application.csproj"
             }
           }
         }
