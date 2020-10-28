@@ -16,9 +16,25 @@ const App = () => {
     setEditMode(true);
   }
 
+  const handleCreateActivity = (activity: IActivity) =>{
+    setActivities([...activities, activity])
+    setSelectedActivity(activity);
+    setEditMode(false);
+  }
+
+  const handleEditActivity= (activity: IActivity) => {
+    setActivities([...activities.filter(a => a.id !== activity.id), activity]);
+    setSelectedActivity(activity);
+    setEditMode(false);
+  }
+
+  const handleDeleteActivity = (id: string) => {
+    setActivities([...activities.filter(a => a.id !== id)])
+  }
+
   const handleSelectActivity = (id: string) => {
     setSelectedActivity(activities.filter(a => a.id === id)[0]);
-    
+    setEditMode(false);
   };
 
   useEffect(() => {
@@ -39,12 +55,16 @@ const App = () => {
       <Navbar openCreateForm={handleOpenCreateForm}/>
       <Container style={{ marginTop: '7em' }}>
         <ActivityDashboard
+          deleteActivity={handleDeleteActivity}
           activities={activities}
           selectActivity={handleSelectActivity}
           selectedActivity={selectedActivity}
           editMode={editMode}
           setEditMode={setEditMode}
           setSelectedActivity={setSelectedActivity}
+          createActivity={handleCreateActivity}
+          editActivity={handleEditActivity}
+
          />
       </Container>
     </Fragment>

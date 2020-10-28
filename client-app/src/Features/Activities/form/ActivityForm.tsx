@@ -6,11 +6,15 @@ import {v4 as uuid} from 'uuid';
 interface IProps {
   setEditMode: (editMode: boolean) => void;
   activity: IActivity;
+  createActivity: (activity:IActivity) =>  void;
+  editActivity: (activity:IActivity) => void;
 }
 
 const ActivityForm: React.FC<IProps> = ({
    activity: initialFormState,
-   setEditMode
+   setEditMode,
+   createActivity,
+   editActivity
 }) => {
   const initializeForm = () => {
       if(initialFormState){
@@ -32,6 +36,15 @@ const ActivityForm: React.FC<IProps> = ({
     const [activity, setActivity] = useState<IActivity>(initializeForm);
     
     const handleSubmit = () => {
+      if (activity.id.length === 0){
+        let newActivity = {
+          ...activity,
+          id: uuid()
+        } 
+        createActivity(newActivity);
+      } else {
+        editActivity(activity);
+      }
       console.log(activity)
     }
 
