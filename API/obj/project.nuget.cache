@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WITI24z+rsU5EDgDGF5yjTHNlGOhbrds83ci+b6ZyR2OcJTpCBCnuV1gOHeKZZQ7OKsSsnFojJ4/WVfZN6th7w==",
+  "dgSpecHash": "3z0aLbqCYL7S9KYCSpsbPA73cwIX13k2OAmLz8MsuZIjUHVyzN0RodA/aZ2jn1v415zjKg5wa5kudh0ajZsm4g==",
   "success": true,
-  "projectFilePath": "D:\\C#-ReactCourse\\Reactivities\\API\\API.csproj",
+  "projectFilePath": "D:\\C#-ReactCourse\\Reactivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jdurn_000\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\jdurn_000\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
