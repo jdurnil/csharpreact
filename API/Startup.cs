@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Hosting;
 using Persistence;
 using MediatR;
 
@@ -41,13 +42,14 @@ namespace API
                 });
             });
             services.AddMediatR(typeof(List.Handler).Assembly);
-            services.AddMvc(option => option.EnableEndpointRouting = false);
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddControllers();
+            //services.AddMvc(option => option.EnableEndpointRouting = false);
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -60,8 +62,15 @@ namespace API
             }
 
             // app.UseHttpsRedirection();
+            app.UseRouting();
             app.UseCors("CorsPolicy");
-            app.UseMvc();
+            //app.UseMvc();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+
+            
         }
     }
 }
